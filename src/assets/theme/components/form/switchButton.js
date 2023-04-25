@@ -61,10 +61,6 @@ export default {
       "&.Mui-disabled + .MuiSwitch-track": {
         opacity: "0.3 !important",
       },
-
-      "&.Mui-focusVisible .MuiSwitch-thumb": {
-        backgroundImage: linearGradient(gradients.info.main, gradients.info.state),
-      },
     },
 
     thumb: {

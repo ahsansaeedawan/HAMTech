@@ -50,12 +50,11 @@ export default {
       fontSize: size.sm,
       color: text.main,
       transition: "background-color 300ms ease, color 300ms ease",
-
-      "&:hover, &:focus, &.Mui-selected, &.Mui-selected:hover, &.Mui-selected:focus": {
-        backgroundColor: light.main,
-        color: dark.main,
-      },
-
+      "&:hover, &:focus, &.Mui-selected, &.Mui-selected:hover, &.Mui-selected:focus":
+        {
+          backgroundColor: light.main,
+          color: dark.main,
+        },
       '&[aria-selected="true"]': {
         backgroundColor: `${light.main} !important`,
         color: `${dark.main} !important`,
@@ -89,10 +88,11 @@ export default {
         padding: `0 ${pxToRem(10)} 0 ${pxToRem(4)}`,
       },
 
-      "& .MuiSvgIcon-root, & .MuiSvgIcon-root:hover, & .MuiSvgIcon-root:focus": {
-        color: white.main,
-        marginRight: 0,
-      },
+      "& .MuiSvgIcon-root, & .MuiSvgIcon-root:hover, & .MuiSvgIcon-root:focus":
+        {
+          color: white.main,
+          marginRight: 0,
+        },
     },
   },
 };

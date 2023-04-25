@@ -44,14 +44,7 @@ import footerRoutes from "footer.routes";
 // Images
 import bgImage1 from "assets/images/best-it-company-in-uae.jpeg";
 
-// Material Kit 2 React examples
-import RotatingCard from "../../examples/Cards/RotatingCard";
-import RotatingCardFront from "../../examples/Cards/RotatingCard/RotatingCardFront";
-import RotatingCardBack from "../../examples/Cards/RotatingCard/RotatingCardBack";
-
 // Images
-import bgFront from "../../assets/images/ivana-square.jpg";
-import bgBack from "../../assets/images/ivana-squares.jpg";
 import logoHAMWhite from "../../assets/images/HAM-logo_w.png";
 import Team from "pages/LandingPages/AboutUs/sections/Team";
 
@@ -111,7 +104,8 @@ function Presentation() {
           mx: { xs: 2, lg: 3 },
           mt: -8,
           mb: 4,
-          backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
+          backgroundColor: ({ palette: { white }, functions: { rgba } }) =>
+            rgba(white.main, 0.8),
           backdropFilter: "saturate(200%) blur(30px)",
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
@@ -130,7 +124,13 @@ function Presentation() {
         <MKBox pt={18} pb={6}>
           <Container>
             <Grid container spacing={3}>
-              <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
+              <Grid
+                item
+                xs={12}
+                lg={5}
+                ml="auto"
+                sx={{ textAlign: { xs: "center", lg: "left" } }}
+              >
                 <MKTypography variant="h4" fontWeight="bold" mb={0.5}>
                   Thank you for your support!
                 </MKTypography>

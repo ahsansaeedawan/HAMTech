@@ -26,21 +26,10 @@ import MKTypography from "components/MKTypography";
 import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
 // Images
-import appleLogo from "assets/images/logos/gray-logos/logo-apple.svg";
-import facebookLogo from "assets/images/logos/gray-logos/logo-facebook.svg";
-import nasaLogo from "assets/images/logos/gray-logos/logo-nasa.svg";
-import vodafoneLogo from "assets/images/logos/gray-logos/logo-vodafone.svg";
 import digitalOceanLogo from "assets/images/logos/gray-logos/logo-digitalocean.svg";
-
 import aws from "../../../assets/images/aws.png";
-import cx from "../../../assets/images/3CX-Logo.png";
-import fanvil from "../../../assets/images/fanvil.png";
-import yealink from "../../../assets/images/yealink.png";
-import sonicwall from "../../../assets/images/sonicwall.png";
 import ms from "../../../assets/images/ms.webp";
-import dgoc from "../../../assets/images/disigtal.png";
 import linux from "../../../assets/images/linux.png";
-import dinstar from "../../../assets/images/dinstar.png";
 import cisco from "../../../assets/images/cisco.png";
 
 function Information() {
@@ -60,8 +49,8 @@ function Information() {
             Multiple Satisfied Clients
           </MKTypography>
           <MKTypography variant="body1" color="text" mb={2}>
-            Many Fortune companies, startups, universities and governmental institutions love HAM
-            Technology Services
+            Many Fortune companies, startups, universities and governmental
+            institutions love HAM Technology Services
           </MKTypography>
         </Grid>
         <Grid container spacing={3} sx={{ mt: 8 }}>
@@ -92,18 +81,48 @@ function Information() {
           </Grid>
         </Grid>
         <Divider sx={{ my: 6 }} />
-        <Grid container spacing={3} justifyContent="center" alignItems={"center"} display="flex">
+        <Grid
+          container
+          spacing={3}
+          justifyContent="center"
+          alignItems={"center"}
+          display="flex"
+        >
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={aws} alt="Apple" width="100%" opacity={0.6} />
+            <MKBox
+              component="img"
+              src={aws}
+              alt="Apple"
+              width="100%"
+              opacity={0.6}
+            />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={ms} alt="Facebook" width="100%" opacity={0.6} />
+            <MKBox
+              component="img"
+              src={ms}
+              alt="Facebook"
+              width="100%"
+              opacity={0.6}
+            />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={cisco} alt="Nasa" width="100%" opacity={0.6} />
+            <MKBox
+              component="img"
+              src={cisco}
+              alt="Nasa"
+              width="100%"
+              opacity={0.6}
+            />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={linux} alt="Vodafone" width="100%" opacity={0.6} />
+            <MKBox
+              component="img"
+              src={linux}
+              alt="Vodafone"
+              width="100%"
+              opacity={0.6}
+            />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
             <MKBox
