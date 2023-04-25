@@ -27,14 +27,22 @@ import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
 // Images
-import bgFront from "assets/images/rotating-card-bg-front.jpeg";
-import bgBack from "assets/images/rotating-card-bg-back.jpeg";
+// import bgFront from "assets/images/rotating-card-bg-front.jpeg";
+// import bgBack from "assets/images/rotating-card-bg-back.jpeg";
+import bgFront from "assets/images/HAM-logo.png";
 
 function Information() {
   return (
     <MKBox component="section" py={6} my={6}>
       <Container>
-        <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto" }}>
+        <Grid
+          container
+          item
+          xs={11}
+          spacing={3}
+          alignItems="center"
+          sx={{ mx: "auto" }}
+        >
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
@@ -42,22 +50,22 @@ function Information() {
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    Services With
                     <br />
-                    Material Kit
+                    HAM Information Technology
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="Multiple Services are provided by HAM Info Tech"
               />
               <RotatingCardBack
-                image={bgBack}
+                image={bgFront}
                 title="Discover More"
                 description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
-                action={{
-                  type: "internal",
-                  route: "/sections/page-sections/page-headers",
-                  label: "start with header",
-                }}
+                // action={{
+                //   type: "internal",
+                //   route: "/sections/page-sections/page-headers",
+                //   label: "start with header",
+                // }}
               />
             </RotatingCard>
           </Grid>
@@ -66,16 +74,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  title="Remote IT Support"
+                  description="Desktop Support, Office 365, Support of IP PBX, CCTV, Website Support, Consultancy and IT Support"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  title="Onsite Visits"
+                  description="IT emergency visit, Monthly / weekly visit to maintain the IT infrastrucutre and health of the PC, Servers and Switches"
                 />
               </Grid>
             </Grid>
@@ -83,15 +90,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  title="IT Systems Support"
+                  description="Desktop Support, Email Support, Office 365 Support, Printer / Scanner, Access Control, CCTV, Server Support, Active Directory, Website Maintenance, Backup, Advance IT security, BCP, IT Hardware Support"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  title="Bonus Services"
+                  description="Monitoring IT Infrastructure 24/7, Upgrade IT infrastrucutre to make it work smoother, Dedicated IT engineer and Network engineer, Restoration of IT Infrastructure, Free IT Infrastructure audit"
                 />
               </Grid>
             </Grid>

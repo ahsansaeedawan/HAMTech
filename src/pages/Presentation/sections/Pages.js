@@ -35,7 +35,12 @@ function Pages() {
   const renderData = data.map(({ image, name, route }) => (
     <Grid item xs={12} md={6} sx={{ mb: { xs: 3, lg: 0 } }} key={name}>
       <Link to={route}>
-        <ExampleCard image={image} name={name} display="grid" minHeight="auto" />
+        <ExampleCard
+          image={image}
+          name={name}
+          display="grid"
+          minHeight="auto"
+        />
       </Link>
     </Grid>
   ));
@@ -55,16 +60,17 @@ function Pages() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="boost creativity"
+            badgeContent="HAM INFO TECH"
             container
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h2" fontWeight="bold">
-            With our coded pages
+            Our Portfolio of Services
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            The easiest way to get started is to use one of our
-            <br /> pre-built example pages.
+            We offer an extensive portfolio of Managed IT infrastructure
+            services that combine flexibility, reliability, and responsiveness
+            to deliver tremendous value and efficiency to your buisness.
           </MKTypography>
         </Grid>
       </Container>
@@ -78,11 +84,19 @@ function Pages() {
           <Grid item xs={12} lg={3}>
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                Presentation Pages for Company, Landing Pages, Blogs and Support
+                Service of Our Company
               </MKTypography>
-              <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
-                These is just a small selection of the multiple possibitilies you have. Focus on the
-                business, not on the design.
+              <MKTypography
+                variant="body2"
+                fontWeight="regular"
+                color="secondary"
+                mb={1}
+                pr={2}
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
               </MKTypography>
             </MKBox>
           </Grid>
