@@ -48,7 +48,10 @@ export default {
           name: "Office No.1303, Bayswater Tower By Ominyat, Bussiness Bay, Dubai U.A.E",
           href: "https://maps.app.goo.gl/HrV9EHMhnZfELATv8?g_st=iwb",
         },
-        { name: "P.O Box # 90951", href: "https://www.creative-tim.com/templates/free" },
+        {
+          name: "P.O Box # 90951",
+          href: "https://www.creative-tim.com/templates/free",
+        },
       ],
     },
     {
@@ -59,7 +62,10 @@ export default {
           name: "Info@haminformationtechnology.com",
           href: "#",
         },
-        { name: "www.haminformationtechnology.com", href: "www.haminformationtechnology.com" },
+        {
+          name: "www.haminformationtechnology.com",
+          href: "www.haminformationtechnology.com",
+        },
       ],
     },
     {

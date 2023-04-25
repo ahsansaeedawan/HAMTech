@@ -78,7 +78,14 @@ function CenteredFooter({ company, links, socials, light }) {
           </Stack>
         </Grid>
         <Grid item xs={12} lg={8}>
-          <Stack display="flex" direction="row" justifyContent="center" spacing={3} mt={1} mb={3}>
+          <Stack
+            display="flex"
+            direction="row"
+            justifyContent="center"
+            spacing={3}
+            mt={1}
+            mb={3}
+          >
             {renderSocials}
           </Stack>
         </Grid>
@@ -115,7 +122,10 @@ CenteredFooter.defaultProps = {
     { href: "https://www.creative-tim.com/license", name: "License" },
   ],
   socials: [
-    { icon: <FacebookIcon fontSize="small" />, link: "https://www.facebook.com/CreativeTim/" },
+    {
+      icon: <FacebookIcon fontSize="small" />,
+      link: "https://www.facebook.com/CreativeTim/",
+    },
     {
       icon: <TwitterIcon fontSize="small" />,
       link: "https://twitter.com/creativetim",
@@ -128,7 +138,10 @@ CenteredFooter.defaultProps = {
       icon: <PinterestIcon fontSize="small" />,
       link: "https://ro.pinterest.com/thecreativetim/",
     },
-    { icon: <GitHubIcon fontSize="small" />, link: "https://github.com/creativetimofficial" },
+    {
+      icon: <GitHubIcon fontSize="small" />,
+      link: "https://github.com/creativetimofficial",
+    },
   ],
   light: false,
 };

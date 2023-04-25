@@ -58,7 +58,15 @@ function Download() {
           opacity={0.2}
         />
         <Container sx={{ position: "relative", zIndex: 2, py: 12 }}>
-          <Grid container item xs={12} md={7} justifyContent="center" mx="auto" textAlign="center">
+          <Grid
+            container
+            item
+            xs={12}
+            md={7}
+            justifyContent="center"
+            mx="auto"
+            textAlign="center"
+          >
             <MKTypography variant="h3" color="white">
               Do you love HAM Technology Services
             </MKTypography>
@@ -66,9 +74,10 @@ function Download() {
               Feel free to &amp; Contact!!!
             </MKTypography>
             <MKTypography variant="body2" color="white" mb={6}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry
             </MKTypography>
             <MKButton
               variant="gradient"
