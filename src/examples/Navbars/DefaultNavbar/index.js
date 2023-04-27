@@ -436,6 +436,7 @@ function DefaultNavbar({ routes, transparent, light, sticky, relative }) {
           display="flex"
           justifyContent="space-between"
           alignItems="center"
+          flexWrap="wrap"
         >
           <MKBox
             component={Link}
@@ -490,7 +491,12 @@ function DefaultNavbar({ routes, transparent, light, sticky, relative }) {
               Tel# +971 4 388 6011
             </MKTypography>
           </MKBox>
-          <MKBox display="flex" alignItems="center">
+          <MKBox
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            width="100%"
+          >
             {socials.map(({ icon, link }, key) => (
               <MKTypography
                 key={link}

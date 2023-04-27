@@ -95,7 +95,15 @@ function DefaultFooter({ content }) {
                         fontWeight="regular"
                         textTransform="capitalize"
                       >
-                        {name}
+                        <span
+                          style={{
+                            wordBreak: "break-all",
+                            display: "inline-block",
+                          }}
+                        >
+                          {" "}
+                          {name}
+                        </span>
                       </MKTypography>
                     ) : (
                       <MKTypography

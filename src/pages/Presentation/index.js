@@ -84,7 +84,7 @@ function Presentation() {
                   maxHeight: size["10rem"],
                 },
               })}
-              maxWidth="25rem"
+              maxWidth="100%"
             />
             <MKTypography
               variant="body1"
